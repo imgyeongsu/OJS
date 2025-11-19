@@ -13,7 +13,7 @@ int main() {
             cout << "true";
         }
     } else {
-        cout << "true";
+        cout << "false";
     }
 
     return 0;
