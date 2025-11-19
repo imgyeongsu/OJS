@@ -6,12 +6,12 @@ int main() {
     int n;
     cin >> n;
     int ans = 0;
-    while (n-->0){
-        if (n%2==0){
+    for (int i = n; i > 0; i--){
+        if (i%2==0){
             continue;
-        } else if (n % 3 == 0){
+        } else if (i % 3 == 0){
             continue;
-        } else if (n % 5 == 0){
+        } else if (i % 5 == 0){
             continue;
         }
         ans ++;
