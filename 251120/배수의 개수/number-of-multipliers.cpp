@@ -11,7 +11,7 @@ int main() {
         if (n % 3 ==0){
             multiple3 ++;
         }
-        if (n % 5){
+        if (n % 5 == 0){
             multiple5 ++;
         }
     }
