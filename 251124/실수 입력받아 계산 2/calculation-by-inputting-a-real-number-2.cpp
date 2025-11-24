@@ -7,7 +7,7 @@ int main() {
     cin >> a;
     
     cout.fixed;
-    cout.precision(3);
+    cout.precision(2);
     cout << a + 1.5;
     return 0;
 }
