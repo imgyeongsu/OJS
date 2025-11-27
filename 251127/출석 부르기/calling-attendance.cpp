@@ -7,10 +7,15 @@ int main() {
     // Please write your code here.
     int i;
     cin >> i;
-    map<int, string> m;
-    m.insert({1, "John"});
-    m.insert({2, "Tom"});
-    m.insert({3, "Paul"});
-    cout << m.at(i);
+    if (i == 1){
+        cout << "John";
+    } else if (i == 2){
+        cout << "Tom";
+    } else if (i == 3){
+        cout << "Paul";
+    } else {
+        cout << "Vacancy";
+    }
+
     return 0;
 }
