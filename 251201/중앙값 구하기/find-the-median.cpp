@@ -5,12 +5,10 @@ int main() {
     // Please write your code here.
     int a, b, c;
     cin >> a >> b >> c;
-    if (a <= b && b <= c){
-        cout << b;
-    } else if ( b <= a && a <= c) {
-        cout << a;
-    } else {
-        cout << c;
-    }
+    if (a > b) swap(a, b);
+    if (b > c) swap(b, c);
+    if (a > b) swap(a, b); 
+    cout << b;
+
     return 0;
 }
